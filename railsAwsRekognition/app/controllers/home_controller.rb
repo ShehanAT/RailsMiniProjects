@@ -40,26 +40,4 @@ class HomeController < ApplicationController
         end
     end 
 
-   
-        # <% @response.labels.each do |label| %>
-        #     <p><b>Label:</b>      <%= label.name %></p>
-        #     <p><b>Confidence:</b> <%= label.confidence %></p>
-        #     <p>Instances:</p>
-            # <% label['instances'].each do |instance| %>
-            #     <% box = instance['bounding_box'] %>
-            #         <p>    Bounding box:</p>
-            #         <p>    Top:        <%= box.top %></p>
-            #         <p>    Left:       <%= box.left %></p>
-            #         <p>    Width:      <%= box.width %></p>
-            #         <p>    Height:     <%= box.height %></p>
-            #         <p>    Confidence: <%= instance.confidence %></p>
-            #     <% end %>
-            #     <p>Parents:</p>
-            #     <% label.parents.each do |parent| %>
-            #         <p><%= parent.name %></p>
-            #     <% end %>
-            # <p>------------</p>
-            # <br>
-            # <% end %> 
-        # <% end %>
 end
